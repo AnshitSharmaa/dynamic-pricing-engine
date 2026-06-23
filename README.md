@@ -65,7 +65,13 @@ The pricing engine considers:
   - Dashboard.png
   - Pricing Result.png
 
+## Live Demo
 
+Frontend:
+https://dynamic-pricing-engine-dd560.web.app/
+
+Backend API:
+https://dynamic-pricing-engine-api.onrender.com
 
 ## Future Improvements
 
