@@ -29,7 +29,7 @@ class ApiService {
     }
 
     final response = await http.post(
-      Uri.parse('https://dynamic-pricing-engine-api.onrender.com/calculate'),
+      Uri.parse('https://dynamic-pricing-engine-api.onrender.com'),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode({
         "vehicle": vehicle,
