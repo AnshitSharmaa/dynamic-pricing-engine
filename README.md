@@ -51,30 +51,19 @@ The pricing engine considers:
 
 ## Project Structure
 
-dynamic-pricing-engine/
-├── backend/
-│   ├── main.py
-│   ├── pricing.py
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── lib/
-│   │   ├── main.dart
-│   │   ├── dashboard_page.dart
-│   │   ├── api_service.dart
-│   │   ├── location_service.dart
-│   │   ├── route_service.dart
-│   │   └── distance_service.dart
-│   │
-│   ├── pubspec.yaml
-│   └── web/
-│
-├── Screenshots/
-│   ├── Dashboard.png
-│   └── Pricing Result.png
-│
-├── .gitignore
-└── README.md
+- **backend/**
+  - main.py
+  - pricing.py
+  - requirements.txt
+
+- **frontend/**
+  - Flutter Web application
+  - API integration
+  - Route calculation services
+
+- **Screenshots/**
+  - Dashboard.png
+  - Pricing Result.png
 
 
 
