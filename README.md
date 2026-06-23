@@ -51,15 +51,14 @@ The pricing engine considers:
 
 ## Project Structure
 
-dynamic-pricing-engine
-│
-├── backend
+dynamic-pricing-engine/
+├── backend/
 │   ├── main.py
 │   ├── pricing.py
 │   └── requirements.txt
 │
-├── frontend
-│   ├── lib
+├── frontend/
+│   ├── lib/
 │   │   ├── main.dart
 │   │   ├── dashboard_page.dart
 │   │   ├── api_service.dart
@@ -68,14 +67,15 @@ dynamic-pricing-engine
 │   │   └── distance_service.dart
 │   │
 │   ├── pubspec.yaml
-│   └── web
+│   └── web/
 │
-├── Screenshots
+├── Screenshots/
 │   ├── Dashboard.png
 │   └── Pricing Result.png
 │
 ├── .gitignore
 └── README.md
+
 
 
 ## Future Improvements
